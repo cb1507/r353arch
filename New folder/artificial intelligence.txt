@@ -1,0 +1,21 @@
+->artificial intelligence, also sometimes refferred to as machine intelligence
+
+->One simple view of the field is that it is concerned with devising computer programs to make computers smarter.
+
+->Research in artificial intelligence is focused on developing computational approaches to intelligent behaviour.
+
+->That effort has 2 goals which are making machines more useful and understanding intelligence.
+
+->The computer programs with which artificial intelligence is concerned are primarily symbolic processes involving complexity, uncertainty and ambiguity.
+
+->Those processes are usually those for which algorithmic solutions do not exist and search is required.
+
+->Thus artificial intelligence deals with the types of problem solving and decision making that humans continually face in dealing with the world.
+
+def1->An area of study in the filed of computer science. Artificial intelligence is concerned with the development of computers able to engage in human-like thought processes such as learning, reasoning and self-correction.
+
+def2->The concept that machines can be improved to assume some capabilities normally thought to be like human intelligence such as learning, adapting, self correction, etc.
+
+def3->The extension of human intelligence through the use of computers, as in times past physical power was extended through the use fo mechanical tools.
+
+def4->In a restricted sense, the study of techniques to use computers more effectively by improved programming techniques.
