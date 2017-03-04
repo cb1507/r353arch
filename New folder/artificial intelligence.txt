@@ -1,4 +1,4 @@
-->artificial intelligence, also sometimes refferred to as machine intelligence
+->artificial intelligence, also sometimes referred to as machine intelligence
 
 ->One simple view of the field is that it is concerned with devising computer programs to make computers smarter.
 
