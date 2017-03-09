@@ -16,6 +16,8 @@
 
 1942: In the United States, the first electronic computer, the ABC, was assembled by John Atanasoff and his graduate student Clifford Berry between 1940 and 1942 at Iowa State University.
 
+1943: The first work that is now generally recognized as AI was McCullouch and Pitts' 1943 formal design for Turing-complete "artificial neurons".
+
 1945: Zuse developed Plankalkul, the first high level programming language.
 
 1952: Nathaniel Rochester and his group build IBM 701, this was the first computer to yield income for its manufacturer.
@@ -39,3 +41,7 @@
 1968: Tom Evan's ANALOGY program solved geometric analogy problems that appear in IQ test
 
 1968: Bertram Raphael's SIR (Semantic Information Retrieval) was able to accept input statements in a very restricted subset of English and answer question thereon.
+
+1997: Deep Blue became the first computer chess-playing system to beat a reigning world class champion, Garry Kasparov.
+
+2016: AlphaGo won 4 out of 5 games of Go in a match with Go champion Lee Sedol, becoming the first computer Go-playing system to beat a professional Go player without handicaps.
