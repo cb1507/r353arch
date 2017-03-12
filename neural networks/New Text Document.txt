@@ -1,0 +1,52 @@
+AI modern approach
+
+> A neural network is composed of a number of nodes, or units, connected by links.
+
+> Each link has a numeric weight associated with it.
+
+> Weights are the primary means of long-term storage in neural networks, and learning usually takes place by updating the weights.
+
+> Some of the units are connected to the external environment, and can be designated as input or output units.
+
+> The weight are modefied so as to try to bring the network's input/output behaviour more into line with that of the environment providing the inputs.
+
+> Each unit has a set of input links from other units, a set of output links to other units, a current activation level, and a means of computing the activation level at the next step in time, given its inputs and weights.
+
+> The idea is that each unit does a local computation based on inputs from its neighbours, but without the need for any global control over the set of units as a whole.
+
+> In practice, most neural network implemetations are in software and use synchronous control to update all the units in a fixed sequence.
+
+
+-----------------------------------------------------------------------------------------------
+
+http://pages.cs.wisc.edu/~bolo/shipyard/neural/local.html
+
+
+> definition by the inventor of one of the first neurocomputers, Dr Robert Hecht-Nielsen
+"..a computing system made up of a number of simple, highly interconnected processing elements, which process information by their dynamic state response to external inputs."
+
+> ANNs are processing devices (algorithms or actual hardware) that are loosely modeled after the neuronal structure of the mamalian cerebral cortex but on much smaller scales. A large ANN might have hundreds or thousands of processor units, whereas a mamalian brain has billions of neurons with a corresponding increase in magnitude of their overall interaction and emergent behaviour.
+
+> Although ANN researchers are generally not concerned with whether their networks accurately resemble biological systems, some have. For example, researchers have accurately simulated the function of the retina and modeled the eye rather well.
+
+> Neural networks are typically organized in layers.
+
+> Layers are made up of a number of interconnected 'nodes' which contain an 'activation funtion'.
+
+> Patterns are presented to the network via the 'input layer', which communicates to one or more 'hidden layers' where the actual processing is done via a system of weighted 'connections'.
+
+> Most ANNs contain some learning rule which modifies the weights of the connections according to input patterns that it is presented with.
+
+> In a sense, ANNs learn by example as do their biological counterparts, a child learns to recognize dogs from examples of dogs.
+
+> The delta rule is most often utilized by the most common class of ANNs called 'backpropagational neural networks'.
+
+> Backpropagation is an abbreviation for the backwards propagation of error.
+
+> With the delta rule, as with other types of backpropagation, learning is a supervised process that occurs with each cycle or epoch (i.e. each time the network is presented with a new input pattern) through a forward activation flow of outputs, and backwards error propagation of weight adjustments. 
+
+> More simply, when a neural network is initially presented with a pattern it makes a random guess as to what it might be. It then sees how far its answer was from the actual one and makes an appropriate adjustment to its connection weight.
+
+> A serial computer has a central processor that can address an array of memory locations where data and instructions are stored. Computations are made by the processor reading an instruction as well as any data the instruction require from memory addresses, the instruction is then executed and the results are saved in a specified memory location as required.
+
+> 
