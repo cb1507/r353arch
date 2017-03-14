@@ -31,7 +31,7 @@ http://pages.cs.wisc.edu/~bolo/shipyard/neural/local.html
 
 > Neural networks are typically organized in layers.
 
-> Layers are made up of a number of interconnected 'nodes' which contain an 'activation funtion'.
+> Layers are made up of a number of interconnected 'nodes' which contain an 'activation function'.
 
 > Patterns are presented to the network via the 'input layer', which communicates to one or more 'hidden layers' where the actual processing is done via a system of weighted 'connections'.
 
@@ -49,4 +49,38 @@ http://pages.cs.wisc.edu/~bolo/shipyard/neural/local.html
 
 > A serial computer has a central processor that can address an array of memory locations where data and instructions are stored. Computations are made by the processor reading an instruction as well as any data the instruction require from memory addresses, the instruction is then executed and the results are saved in a specified memory location as required.
 
-> 
+> In comparison, ANNs are not sequential or necessarily deterministic. There are no complex central processors, rather there are many simple ones which generally do nothing more than take the weighted sum of their inputs from other processors. ANNs do not execute programed instructions, they respond in parallel (either simulated or actual) to the pattern of inputs presented to it. There are also no separate memory addresses for storing data. Instead, information is contained in the overall activation 'state' of the network. 'Knowledge' is thus represented by the network itself, which is quite literally more than the sum of its individual components.
+
+> Application of neural network:
+* capturing associations or discovering regularities within a set of patterns.
+* where the volume, number of variables or diversity of the data is very great
+* the relationships between variables are vaguely understood
+* the relationships are difficult to describe adequately with conventional approaches
+
+> limitationa:
+* Backpropagational neural networks are in sense the ultimate 'black boxes'. Apart form defining the general architecture of a network and perhaps initially seeding it with a random numbers, the user has no other role than to feed it input and watch it train and await the output.
+
+* Backpropagational networks also tend to be slower to train than other types of networks and sometimes require thousands of epochs. If run on a truly parallel computer system this issue is not really a problem, but if the BPNN is being simulated on a standard serial machine (i.e. a single SPARC, MAC or PC) training can take sometime.
+
+
+---------------------------------------------------------------------------------------------
+
+https://en.wikipedia.org/wiki/Artificial_neural_network
+
+> Neural networks or connectionist systems are a computational approach used in computer science and other research disciplines, which is based on a large collection of neural units, loosely mimicking the way a biological brain solves problems with large clusters of biological neurons connected by axons.
+
+> Each neural unit is connected with many others, and links can be enforcing or inhibitory in their effect on the activation state of connected neural units.
+
+> Each neural unit may have a summation function which combines the value of all its input together.
+
+> There may be a threshold function on each connection and on the unit itself, such that the signal must surpass the limit before propagating to other neurons.
+
+> These systems are self-learning and trained, rather than explicitly programmed, and excel in areas where the solution or feature detection is difficult to express in a traditional computer program.
+
+> Neural networks typically consist of multiple layers or cube design, and the signal path traverses from front to back.
+
+> Back propogation is the use of forward stimulation to reset weights on the "front" neural units and this is sometimes done in combination with training where the correct result is known.
+
+> Dynamic neural networks are the most advanced, in that they dynamically can, based on rules, form new connections and even new neural units while disabling others.
+
+> The goal of neural network is to solve problems in the same way that the human brain would, although several neural networks are more abstract.
